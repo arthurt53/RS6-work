@@ -8,5 +8,5 @@ kaggle初始数据集有5个文件与本次作业相关，分别为combined_data
   （3）通过文件**L5_Action1_pre3**中的代码提取基础数据集中的ID信息，与probe.txt中的ID信息进行匹配，筛选出相应数据集作为本次作业的probe数据集probe_test2.csv。  
   （4）通过文件**L5_Action1_pre4**中的代码将基础数据集中存在于probe数据集的数据剔除作为本次作业的训练集data_new.csv，同时将probe数据集对应的实际评分补全作为本次作业的测试集probe_new_1.csv。  
 2、模型训练与RMSE输出：  
-  通过文件**L5_Action1_main**中的代码使用Surprise工具对训练集进行训练，同时对测试集进行预测，输出相应RMSE值。
-  **最终，训练出RMSE值最小的算法是采用ALS进行优化的Baseline算法，在probe集上的RMSE值为1.1372。**  
+  （1）通过文件**L5_Action1_main**中的代码使用Surprise工具对训练集进行训练，同时对测试集进行预测，输出相应RMSE值。  
+  （4）**最终，训练出RMSE值最小的算法是采用ALS进行优化的Baseline算法，在probe集上的RMSE值为1.1372。**  
