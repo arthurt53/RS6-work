@@ -1,0 +1,2 @@
+# 疫情可视化网站  
+https://app.powerbi.com/view?r=eyJrIjoiOWY5YTQ0MDgtMzUyYS00OThiLWE2MWUtMmU0M2UyMDlhZjk5IiwidCI6IjhlMmQ5ODViLWVlNjUtNDUxYS1hYjdhLTFiZTYzMmE4OGEzYiIsImMiOjF9
