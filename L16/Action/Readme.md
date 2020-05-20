@@ -4,12 +4,12 @@
 **2、实现效果：**  
 如视频（五子棋 2020-05-20 15_49_02.mp4）所示，初步实现与AI的对弈，但AI的训练尚不成熟，与人的对弈胜率不高，未来尚需继续优化  
 **3、主文件结构：**  
-game_output.py：定义了游戏的棋盘、获取棋盘状态、下棋、判断是否有人胜利、绘制人机对弈的可视化棋盘、自我对弈；  
-human_play_output.py：人机对弈，在可视化界面下实现与AI的对弈；  
-mcts_alphaZero.py：实现Alpha_Zero中的MCTS，使用策略网络来指导树搜索并计算叶节点；  
-mcts_pure.py：实现随机走子策略的MCTS；  
-policy_value_net_pytorch.py：策略价值网络，用来指导MCTS搜索并计算叶子节点；  
-train_10x10.py：训练AI主程序;  
-best_policy_10x10：10X10棋盘下训练得到的AI最优策略模型；  
-demo_10x10.ipynb：10x10棋盘下未采用可视化界面的人机对弈过程；  
-五子棋 2020-05-20 15_49_02.mp4：10x10棋盘下可视化界面人机对弈过程。
+（1）game_output.py：定义了游戏的棋盘、获取棋盘状态、下棋、判断是否有人胜利、绘制人机对弈的可视化棋盘、自我对弈；  
+（2）human_play_output.py：人机对弈，在可视化界面下实现与AI的对弈；  
+（3）mcts_alphaZero.py：实现Alpha_Zero中的MCTS，使用策略网络来指导树搜索并计算叶节点；  
+（4）mcts_pure.py：实现随机走子策略的MCTS；  
+（5）policy_value_net_pytorch.py：策略价值网络，用来指导MCTS搜索并计算叶子节点；  
+（6）train_10x10.py：训练AI主程序;  
+（7）best_policy_10x10：10X10棋盘下训练得到的AI最优策略模型；  
+（8）demo_10x10.ipynb：10x10棋盘下未采用可视化界面的人机对弈过程；  
+（9）五子棋 2020-05-20 15_49_02.mp4：10x10棋盘下可视化界面人机对弈过程。
